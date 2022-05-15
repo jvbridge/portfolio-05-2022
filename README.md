@@ -1,7 +1,7 @@
 # portfolio-05-2022
 The code for my deployed Heroku app with my portfolio on it
 
-Full deployed site will be at jvbridge-herokuapp.com
+Full deployed site will be at https://jvbridge.herokuapp.com/
 
 ## License
 
