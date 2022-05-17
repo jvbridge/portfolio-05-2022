@@ -8,8 +8,9 @@
 }
 
 #intro {
-  background-image: url(../assets/main_background.png);
+  background-image: url(../assets/images/main_background.png);
   height: 100vh;
+  width: 100vw;
 }
 
 @media (min-width: 992px) {
@@ -20,4 +21,40 @@
 
 .navbar .nav-link {
   color: #fff !important;
+}
+
+a + div {
+  display: none;
+}
+
+a:hover + div {
+  display: block;
+}
+
+main {
+  overflow: hidden;
+}
+#skills {
+  padding: 50px 15px;
+  text-align: center;
+}
+#skills h2 {
+  color: #374054;
+  margin-bottom: 50px;
+}
+#skills ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 800px;
+}
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: #374054;
+  background: #e4e4ea;
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
 }
