@@ -88,27 +88,32 @@
         <li class="">Font-awesome <i class="fa-solid fa-font-awesome"></i></li>
         <li class="">Mysql <i class="fa-solid fa-database"></i></li>
         <li class="">Node.js <i class="fa-brands fa-node-js"></i></li>
-        <li class="">Express <i class="fa-solid fa-brackets-curly"></i></li>
+        <li class="">Express.js <i class="fa-solid fa-brackets-curly"></i></li>
         <li class="">Command line tools
           <i class="fa-solid fa-terminal"></i></li>
         {{! <li class="">React <i class="fa-brands fa-react"></i></li> }}
         <li class="">Insomnia <i class="fa-solid fa-network-wired"></i></li>
         <li class="">Wire framing</li>
-        <li class="">Psudo-code <i class="fa-solid fa-brain-circuit"></i></li>
+        <li class="">Pseudo-code <i class="fa-solid fa-brain-circuit"></i></li>
         <li class="">Server-side APIs <i class="fa-solid fa-gears"></i></li>
-        <li class="">client-side APIs <i class="fa-solid fa-gears"></i></li>
+        <li class="">Client-side APIs <i class="fa-solid fa-gears"></i></li>
         <li class="">Sequelize <i class="fa-solid fa-database"></i></li>
         <li class="">Linux <i class="fa-brands fa-linux"></i></li>
 
       </ul>
     </section>
     <hr class="my-5" />
-    <section>
+    <section class="mb-5">
       <h4 class="mb-5 text-center"><strong>Projects</strong></h4>
+      <div class="container row">
+          {{#each projects as |project|}}
+            <div class="col my-3">
+            {{>project}}
+            </div>
+          {{/each}}
 
-      {{#each projects as |project|}}
-      {{>project}}
-      {{/each}}
+      </div>
     </section>
+    <br>
   </div>
 </main>

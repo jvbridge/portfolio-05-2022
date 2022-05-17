@@ -1,0 +1,9 @@
+[
+  { "name": "inkly", "image": "inkly.png" },
+  { "name": "readme-generator", "image": "nodejs-logo.png" },
+  { "name": "note-taker", "image": "note-taker.png" },
+  { "name": "employee-database", "image": "nodejs-logo.png" },
+  { "name": "e-commerce-back-end", "image": "nodejs-logo.png" },
+  { "name": "mvc-tech-blog", "image": "mvc-tech-blog.png" },
+  { "name": "mise-en-place", "image": "mise-en-place.png" }
+]
