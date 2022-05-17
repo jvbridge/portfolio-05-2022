@@ -1,0 +1,119 @@
+<main>
+  <div id="intro" class="bg-image shadow-2-strong h-100">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+      <div
+        class="container d-flex align-items-center justify-content-center text-center h-100"
+      >
+        <div class="text-white">
+
+          <div id="lead">
+            <div id="lead-content">
+              <h1>Jonathan Bridge</h1>
+              <h2>Full Stack Developer</h2>
+            </div>
+            <a
+              class="btn btn-outline-light btn-lg m-2"
+              href="./assets/resume.pdf"
+              role="button"
+              rel="nofollow"
+              target="_blank"
+            >Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="container mt-5">
+    <section>
+      <div class="row">
+        <div class="col-md-6 gx-5 mb-4">
+          <div
+            class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
+            data-mdb-ripple-color="light"
+          >
+            <a><img src="/assets/images/full_stack.png" class="img-fluid" />
+              <div>Image by
+                <a
+                  href="https://pixabay.com/users/lakexyde-2489063/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1935737"
+                >Olalekan Oladipupo</a>
+                from
+                <a
+                  href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1935737"
+                >Pixabay</a></div>
+            </a>
+            <a href="#!">
+              <div
+                class="mask"
+                style="background-color: rgba(251, 251, 251, 0.15);"
+              ></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 gx-5 mb-4">
+          <h4><strong>About me</strong></h4>
+          <p class="text-muted">
+            Hi! My name is Jonathan, I'm a full stack developer that is
+            interested in all things technology and science fiction.
+          </p>
+          <p><strong>My journey</strong></p>
+          <p class="text-muted">
+            I've been interested in technology for as long as I can remember,
+            but I only started focusing on being a full stack developer pretty
+            reecently. If you go look at
+            <a href="https://github.com/jvbridge/">my github</a>, you'll see how
+            much more I'm doing now
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr class="my-5" />
+    <section id="skills">
+      <h4 class="mb-5 text-center"><strong>Skills</strong></h4>
+
+      <ul>
+        <li class="">Front-end Development
+          <i class="fa-solid fa-browsers"></i></li>
+        <li class="">Back-end Development
+          <i class="fa-solid fa-server"></i></li>
+        <li class="">C</li>
+        <li class="">C++</li>
+        <li class="">Python <i class="fa-brands fa-python"></i></li>
+        <li class="">Java <i class="fa-brands fa-java"></i></li>
+        <li class="">Javascript <i class="fa-brands fa-js"></i></li>
+        <li class="">Git <i class="fa-brands fa-git-alt"></i></li>
+        <li class="">HTML 5 <i class="fa-brands fa-html5"></i></li>
+        <li class="">Bootstrap <i class="fa-brands fa-bootstrap"></i></li>
+        <li class="">Font-awesome <i class="fa-solid fa-font-awesome"></i></li>
+        <li class="">Mysql <i class="fa-solid fa-database"></i></li>
+        <li class="">Node.js <i class="fa-brands fa-node-js"></i></li>
+        <li class="">Express.js <i class="fa-solid fa-brackets-curly"></i></li>
+        <li class="">Command line tools
+          <i class="fa-solid fa-terminal"></i></li>
+        {{! <li class="">React <i class="fa-brands fa-react"></i></li> }}
+        <li class="">Insomnia <i class="fa-solid fa-network-wired"></i></li>
+        <li class="">Wire framing</li>
+        <li class="">Pseudo-code <i class="fa-solid fa-brain-circuit"></i></li>
+        <li class="">Server-side APIs <i class="fa-solid fa-gears"></i></li>
+        <li class="">Client-side APIs <i class="fa-solid fa-gears"></i></li>
+        <li class="">Sequelize <i class="fa-solid fa-database"></i></li>
+        <li class="">Linux <i class="fa-brands fa-linux"></i></li>
+
+      </ul>
+    </section>
+    <hr class="my-5" />
+    <section class="mb-5">
+      <h4 class="mb-5 text-center"><strong>Projects</strong></h4>
+      <div class="container row">
+          {{#each projects as |project|}}
+            <div class="col my-3">
+            {{>project}}
+            </div>
+          {{/each}}
+
+      </div>
+    </section>
+    <br>
+  </div>
+</main>
